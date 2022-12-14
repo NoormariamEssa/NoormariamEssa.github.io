@@ -1,22 +1,64 @@
 <html>
     <head>
+    <title> Movies| Welcome </title>
+    <link rel="stylesheet" href="./CSS/style.css">
     </head>
     <body>
-        <h1>Welcome to the home page!</h1> 
-     
-        <h2>Places to travel</h2>
-        <ol>
-            <h2><li style=color:blue> Italy</li></h2>
-            <h2><li style=color:blue> France</li></h2>
-            <h2><li style=color:blue> Hawaii</li></h2>
-        </ol>
-        <il>
-            <h2><li style=color:blue> Germany</li></h2>
-            <h2><li style=color:blue> Greece</li></h2>
-            <h2><li style=color:blue> Belgium</li></h2>            
-        </il>
-        <a href="places.html"><h2> More places!</h2></a> 
-        <a href="food.html"><h2> More places!</h2></a>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/X_bM-Olp1Ng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <h1><span class="highlight">Movies</span></h1>
+                </div>
+                <nav>
+                   <ul>
+                       <li> <a href="index.html">Home</a></li>
+                        <li> <a href="favorites.html">Favorites</a></li>
+                         <li> <a href="projects.html">Projects</a></li>
+                        
+                   </ul> 
+                </nav>
+            </div>
+        </header>
+        <section id="showcase">
+            <div class="container">
+                <h1> Explore Different Movies </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac fermentum est, a cursus turpis. Fusce eget leo accumsan, pretium nunc in, cursus tellus.</p>
+            </div>
+        </section>
+        
+        <section id="newsletter">
+            <div class="container">
+                <h1>Subscribe to our newsletter </h1>
+                <form>
+                   <input type="email" placeholder="enter email...">
+                   <button type="submit" class="button_1">Subscribe</button>
+                </form>
+            </div>
+        </section>
+        
+        <section id= "boxes">
+            <div class="container">
+                
+                <div class="box">
+                    <img src="./img/theater.png">
+                    <h3>HTML5 Markup</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="box">
+                    <img src="./img/villians.png">
+                    <h3>CSS3 Style</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="box">
+                    <img src="./img/heros.png">
+                    <h3>Graphic design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <p> Noormariam Essa, copyright &copy; 2022</p>
+        </footer>
     </body>
-</html> 
+</html>
