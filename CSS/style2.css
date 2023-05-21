@@ -126,8 +126,8 @@ header a:hover{
 }
 
 #boxes .box img{
-    width:150px;
-    height:100px;
+    width:300px;
+    height:200px;
 }
 
 /* Sidebar */
@@ -186,3 +186,24 @@ footer{
        margin-bottom:5px;
    }
 }
+.hover-zoom {
+    transition: transform 0.3s; /* Add a smooth transition effect */
+  }
+  
+  .hover-zoom:hover {
+    transform: scale(1.1); /* Increase the scale to make the image slightly bigger */
+  }
+
+  <style>
+  @keyframes lights-animation-bottom {
+      0% { background-color: red; }
+      25% { background-color: yellow; }
+      50% { background-color: green; }
+      75% { background-color: blue; }
+      100% { background-color: red; }
+  }
+
+  footer.light-animation {
+      animation: lights-animation-bottom 4s linear infinite;
+  }
+</style>
